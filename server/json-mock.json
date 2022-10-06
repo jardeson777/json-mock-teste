@@ -1,0 +1,284 @@
+{
+  "brokers": [
+    {
+      "id": 3,
+      "name": "Super Qualidade",
+      "cnpj": "01972465000177",
+      "picture": "http://www.superqualidadeseguros.com.br/assets/img/logo.png",
+      "operators": [
+        {
+          "id": 1,
+          "name": "operators 1",
+          "cnpj": "07182489000109",
+          "picture": "",
+          "plans": [
+            {
+              "id": 1,
+              "name": "plan 1",
+              "anscode": "358741",
+              "value": 80.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Agecor",
+      "cnpj": "20455778000100",
+      "picture": "https://img77.uenicdn.com/image/upload/v1614057857/business/3c9719fd-f60f-46e6-83ad-c45f3e342ae9.png",
+      "operators": [
+        {
+          "id": 1,
+          "name": "operators 1",
+          "cnpj": "07182489000109",
+          "picture": "",
+          "plans": [
+            {
+              "id": 1,
+              "name": "plan 1",
+              "anscode": "358741",
+              "value": 80.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "JC LUZ VOLTA REDONDA",
+      "cnpj": "14324635000159",
+      "picture": "https://www.jcluz.com.br/wp-content/uploads/2018/08/planos-de-saude-jc-luz-logo.png",
+      "operators": [
+        {
+          "id": 1,
+          "name": "operators 2",
+          "cnpj": "76521316000190",
+          "picture": "",
+          "plans": [
+            {
+              "id": 1,
+              "name": "plan 1",
+              "anscode": "874515",
+              "value": 95
+            },
+            {
+              "id": 2,
+              "name": "plan 2",
+              "anscode": "478412",
+              "value": 149
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "id": 1,
+      "name": "Jardeson",
+      "cpf": "92395422053",
+      "password": "123",
+      "email": "jnogueira@marlin.com.br",
+      "birthDate": "2001-05-22T19:40:34.018Z",
+      "confirmedEmail": true,
+      "telephone": {
+        "ddd": "21",
+        "phoneNumber": "33333333"
+      },
+      "cellphone": {
+        "ddd": "21",
+        "phoneNumber": "987778204"
+      },
+      "proposalsForOperators": [
+        {
+          "id": 1,
+          "name": "Assim Saúde",
+          "type": "PF",
+          "cnpj": "07182489000109",
+          "picture": "https://logodownload.org/wp-content/uploads/2020/12/assim-saude-logo.png",
+          "inFillingNumber": {
+            "total": 132,
+            "EM_DIGITACAO": 0,
+            "ASSINATURA_REPRESENTANTE": 10,
+            "DEVOLVIDA_REPRESENTANTE": 12,
+            "ASSINADA_REPRESENTANTE": 18,
+            "ASSINATURA_TITULARES": 1,
+            "ASSINADA_TITULARES": 19,
+            "ACEITE_VIGENCIA": 30,
+            "RECUSADA_TROCA_VIGENCIA": 2
+          },
+          "underAnalysisNumber": {
+            "total": 115,
+            "ANALISE_OPERADORA": 19,
+            "DEVOLVIDA_OPERADORA": 10,
+            "AGUARDANDO_VIGENCIA": 15,
+            "AGUARDANDO_BOLETO": 8,
+            "ANALISE_MEDICA": 18,
+            "EM_REGULARIZACAO": 45
+          },
+          "historyNumber": {
+            "total": 39,
+            "AGUARDANDO_OPERADORA": 22,
+            "IMPLEMENTADA": 8,
+            "CANCELADA": 9
+          }
+        },
+        {
+          "id": 2,
+          "name": "Assim Saúde",
+          "type": "PME",
+          "cnpj": "07182489000109",
+          "picture": "https://logodownload.org/wp-content/uploads/2020/12/assim-saude-logo.png",
+          "inFillingNumber": {
+            "total": 273,
+            "EM_DIGITACAO": 40,
+            "ASSINATURA_REPRESENTANTE": 10,
+            "DEVOLVIDA_REPRESENTANTE": 12,
+            "ASSINADA_REPRESENTANTE": 18,
+            "ASSINATURA_TITULARES": 1,
+            "ASSINADA_TITULARES": 19,
+            "ACEITE_VIGENCIA": 30,
+            "RECUSADA_TROCA_VIGENCIA": 2,
+            "ANALISE_OPERADORA": 6,
+            "DEVOLVIDA_OPERADORA": 21,
+            "AGUARDANDO_VIGENCIA": 8,
+            "AGUARDANDO_BOLETO": 36,
+            "ANALISE_MEDICA": 1,
+            "EM_REGULARIZACAO": 2,
+            "IMPLEMENTADA": 8,
+            "AGUARDANDO_PGTO": 50,
+            "CANCELADA": 9
+          },
+          "underAnalysisNumber": {
+            "total": 116,
+            "EM_ANALISE_OPERADORA": 20,
+            "DEVOLVIDA_OPERADORA": 10,
+            "AGUARDANDO_VIGENCIA": 15,
+            "AGUARDANDO_BOLETO": 8,
+            "EM_ANALISE_MEDICA": 18,
+            "EM_REGULARIZACAO": 45
+          },
+          "historyNumber": {
+            "total": 38,
+            "AGUARDANDO_OPERADORA": 21,
+            "IMPLEMENTADA": 8,
+            "CANCELADA": 9
+          }
+        },
+        {
+          "id": 3,
+          "name": "Assim Saúde",
+          "type": "PME",
+          "cnpj": "07182489000109",
+          "picture": "https://logodownload.org/wp-content/uploads/2020/12/assim-saude-logo.png",
+          "inFillingNumber": {
+            "total": 263,
+            "EM_DIGITACAO": 30,
+            "ASSINATURA_REPRESENTANTE": 10,
+            "DEVOLVIDA_REPRESENTANTE": 12,
+            "ASSINADA_REPRESENTANTE": 18,
+            "ASSINATURA_TITULARES": 1,
+            "ASSINADA_TITULARES": 19,
+            "ACEITE_VIGENCIA": 30,
+            "RECUSADA_TROCA_VIGENCIA": 2,
+            "ANALISE_OPERADORA": 6,
+            "DEVOLVIDA_OPERADORA": 21,
+            "AGUARDANDO_VIGENCIA": 8,
+            "AGUARDANDO_BOLETO": 36,
+            "ANALISE_MEDICA": 1,
+            "EM_REGULARIZACAO": 2,
+            "IMPLEMENTADA": 8,
+            "AGUARDANDO_PGTO": 50,
+            "CANCELADA": 9
+          },
+          "underAnalysisNumber": {
+            "total": 107,
+            "EM_ANALISE_OPERADORA": 20,
+            "DEVOLVIDA_OPERADORA": 1,
+            "AGUARDANDO_VIGENCIA": 15,
+            "AGUARDANDO_BOLETO": 8,
+            "EM_ANALISE_MEDICA": 18,
+            "EM_REGULARIZACAO": 45
+          },
+          "historyNumber": {
+            "total": 39,
+            "AGUARDANDO_OPERADORA": 21,
+            "IMPLEMENTADA": 5,
+            "CANCELADA": 9
+          }
+        }
+      ],
+      "brokers": []
+    },
+    {
+      "id": 2,
+      "name": "Ricardo",
+      "cpf": "08090957005",
+      "password": "123",
+      "email": "rmonteiro@marlin.com.br",
+      "birthDate": "2001-05-22T19:40:34.018Z",
+      "confirmedEmail": false,
+      "telephone": {
+        "ddd": "21",
+        "phoneNumber": "33333333"
+      },
+      "cellphone": {
+        "ddd": "21",
+        "phoneNumber": "999999999"
+      },
+      "brokers": [
+        {
+          "id": 4,
+          "name": "Agecor",
+          "cnpj": "20455778000100",
+          "picture": "https://img77.uenicdn.com/image/upload/v1614057857/business/3c9719fd-f60f-46e6-83ad-c45f3e342ae9.png",
+          "operators": [
+            {
+              "id": 1,
+              "name": "operators 1",
+              "cnpj": "07182489000109",
+              "picture": "",
+              "plans": [
+                {
+                  "id": 1,
+                  "name": "plan 1",
+                  "anscode": "358741",
+                  "value": 80.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "JC LUZ VOLTA REDONDA",
+          "cnpj": "14324635000159",
+          "picture": "https://www.jcluz.com.br/wp-content/uploads/2018/08/planos-de-saude-jc-luz-logo.png",
+          "operators": [
+            {
+              "id": 1,
+              "name": "operators 2",
+              "cnpj": "76521316000190",
+              "picture": "",
+              "plans": [
+                {
+                  "id": 1,
+                  "name": "plan 1",
+                  "anscode": "874515",
+                  "value": 95
+                },
+                {
+                  "id": 2,
+                  "name": "plan 2",
+                  "anscode": "478412",
+                  "value": 149
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
